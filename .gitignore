@@ -1,10 +1,15 @@
-# Python cache
-__pycache__/
+# Airflow
+logs/
 *.pyc
-
-# Virtual environment
-.venv/
-
-# Environment secrets
+__pycache__/
 .env
 
+# Data files
+data/*.csv
+
+# Docker
+mysql_data/
+
+# OS
+.DS_Store
+Thumbs.db
